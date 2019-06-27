@@ -25,11 +25,14 @@ class FeaturedItems {
   private function addPost() {
     $query = new WP_Query( 'p=' . array_shift($this->stickyPostIndexes) );
     $post = $query->post;
+    $postImageUrl = get_template_directory_uri().'/images/default-background-1.jpg';
+    if( get_the_post_thumbnail_url( $post ) )
+      $postImageUrl =  get_the_post_thumbnail_url( $post );
 
     echo "<li class='card'><a href='".get_permalink( $post )."'>";
 
     echo '<figure>';
-    echo '<img src="'.get_the_post_thumbnail_url($post->ID).'" />';
+    echo '<img src="'.$postImageUrl.'" />';
     echo '</figure>';
 
     echo "<h2 class='title'>$post->post_title</h2>";
