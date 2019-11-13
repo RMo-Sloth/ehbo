@@ -16,3 +16,8 @@ add_action( 'after_setup_theme', function(){
 add_action( 'init', function() {
 	register_nav_menu('main-menu',__( 'hoofdmenu' ));
 });
+
+function ehbo_add_feature_support() {
+	add_theme_support( 'title-tag');
+}
+add_action( 'after_setup_theme', 'ehbo_add_feature_support' );
