@@ -23,11 +23,15 @@ class FeaturedItems {
     }
   }
   private function addPost() {
-    $query = new WP_Query( 'p=' . array_shift($this->stickyPostIndexes) );
+    $query = new WP_Query( 'p=' . array_pop($this->stickyPostIndexes) );
     $post = $query->post;
-    $postImageUrl = get_template_directory_uri().'/images/default-background-1.jpg';
+    if( is_null($query->post) ) { // wp doesn't return private posts
+      return;
+    }
     if( get_the_post_thumbnail_url( $post ) )
       $postImageUrl =  get_the_post_thumbnail_url( $post );
+    else
+      $postImageUrl = get_template_directory_uri().'/images/default-background-1.jpg';
 
     echo "<li class='card'><a href='".get_permalink( $post )."'>";
 
