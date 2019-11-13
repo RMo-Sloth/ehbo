@@ -14,12 +14,9 @@
     }
     $title = $title ? $title.' - ' : '' ;
 
-    $description = 'desc';
-
     wp_head();
   ?>
   <title><?php echo $title; ?>EHBO Berkenwoude</title>
-  <description><?php echo $description; ?></description>
 </head>
 
   <body <?php body_class(); ?> >
