@@ -23,13 +23,13 @@
     <h1 class='section-header'>wij zijn aangesloten bij</h1>
     <p>Onze vereniging is aangesloten bij een aantal landelijke organisaties: EHBO Nederland, het Oranje Kruis en de Hartstichting.</p>
     <div class='associations'>
-      <a href='https://www.hartstichting.nl/' target='_blank'>
+      <a href='https://www.hartstichting.nl/' target='_blank' rel="noopener" >
         <img src='<?php echo get_template_directory_uri().'/images/de-hartstichting.png'; ?>' alt='logo van de hartstichting' />
       </a>
-      <a href='https://www.ehbonederland.nl/' target='_blank'>
+      <a href='https://www.ehbonederland.nl/' target='_blank' rel="noopener" >
         <img src='<?php echo get_template_directory_uri().'/images/ehbo-nederland.png'; ?>' alt='logo van ehbo Nederland' />
       </a>
-      <a href='https://www.hetoranjekruis.nl/' target='_blank'>
+      <a href='https://www.hetoranjekruis.nl/' target='_blank' rel="noopener" >
         <img src='<?php echo get_template_directory_uri().'/images/het-oranje-kruis.png'; ?>' alt='logo van het oranje kruis' />
       </a>
     </div>
