@@ -40,7 +40,7 @@ class FeaturedItems {
       echo "<li class='card'><a href='".get_permalink( $post )."'>";
 
       echo '<figure>';
-      echo '<img src="'.$postImageUrl.'" />';
+      echo '<img src="'.$postImageUrl.'" alt="" />';
       echo '</figure>';
 
       echo "<h2 class='title'>$post->post_title</h2>";
