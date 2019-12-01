@@ -7,7 +7,9 @@
     case is_singular():
       $metaDescription = get_the_excerpt();
       break;
-
+    case is_archive():
+      $metaDescription = wp_strip_all_tags( get_the_archive_description() );
+      break;
     default:
       $metaDescription = '';
   }
