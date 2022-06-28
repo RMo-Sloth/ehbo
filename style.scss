@@ -406,9 +406,11 @@ body.home>main {
   p {
     text-align: center;
   }
-  
-  .featured-items {
+  section.featured-items {
     background: $color-2;
+    border-top: 5px solid $color-1;
+    border-bottom: 5px solid $color-1;
+    box-shadow: $box-shadow-2;
   }
 
 	// MODULE ASSOCIATIONS
@@ -457,13 +459,6 @@ body.single>main>article{
 section.max-container-width {
 	max-width: $container-max-width;
 	margin: auto;
-}
-
-// MODULE: SEPERATOR
-div.seperator {
-  border-top: 5px solid $color-1;
-  height: 0px;
-	box-shadow: $box-shadow-2;
 }
 
 // MODULE: SECTION HEADER

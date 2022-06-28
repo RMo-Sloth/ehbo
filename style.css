@@ -379,8 +379,11 @@ footer div.container .disclaimer {
 body.home > main p {
   text-align: center;
 }
-body.home > main .featured-items {
+body.home > main section.featured-items {
   background: rgb(255, 245, 230);
+  border-top: 5px solid #134E8B;
+  border-bottom: 5px solid #134E8B;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
 }
 body.home > main .associations {
   padding-top: 30px;
@@ -423,12 +426,6 @@ body.single > main > article h1 {
 section.max-container-width {
   max-width: 960px;
   margin: auto;
-}
-
-div.seperator {
-  border-top: 5px solid #134E8B;
-  height: 0px;
-  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
 }
 
 .section-header {

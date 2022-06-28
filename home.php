@@ -9,15 +9,11 @@
     <p>EHBO (Eerste Hulp Bij Ongelukken) vereniging Berkenwoude is opgericht in 1929. Op dit moment bestaat de vereniging uit ongeveer 60 leden welke uit Berkenwoude en omstreken komen. De vereniging kenmerkt zich door het 'open karakter' en de 'dorpse gezelligheid'.</p>
   </section>
 
-  <div class='seperator'></div>
-
   <section class='featured-items'>
     <h1 class='section-header'>het laatste nieuws</h1>
     <?php $featuredItems = new FeaturedItems();
     $featuredItems->compile(); ?>
   </section>
-
-  <div class='seperator'></div>
 
   <section class='max-container-width'>
     <h1 class='section-header'>wij zijn aangesloten bij</h1>
