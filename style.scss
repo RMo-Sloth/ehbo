@@ -360,7 +360,7 @@ main{
 }
 
 section {
-	padding: 40px 10px;
+	padding: 4rem 1rem;
 }
 
 // FOOTER
@@ -431,10 +431,10 @@ body.home>main {
 // SINGLE
 body.single>main>article{
 	max-width: $max-text-width;
-	padding: 40px 10px;
+	padding: 2rem 10px;
 	margin: auto;
 	h1 {
-		margin-bottom: 40px;
+		margin-bottom: 1rem;
 		text-transform: uppercase;
 	}
 }
@@ -454,7 +454,7 @@ section.max-container-width {
 
 // MODULE: SECTION HEADER
 .section-header {
-	margin-bottom: 40px;
+	margin-bottom: 1rem;
 	text-transform: uppercase;
 }
 
@@ -508,5 +508,5 @@ ul.featured-items {
 	border-radius: 50%;
 	border: 5px solid $color-1;
 	box-shadow: 4px 5px 3px rgba(0, 0, 0, 0.5);
-	margin: 0px auto 40px auto;
+	margin: 0px auto 1rem auto;
 }
