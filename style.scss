@@ -137,38 +137,36 @@ blockquote.wp-block-quote{
 }
 // heading
 h1{
-	margin-bottom: $block-margin;
+	margin: 0 0 1rem 0;
 	text-transform: uppercase;
 	text-align: center;
-	font-size: 20px;
+	font-size: 2rem;
 	font-weight: bold;
 }
 h2{
-  margin: 40px 0px;
-	text-transform: uppercase;
+  margin: 2rem 0 1rem 0;
 	text-align: center;
-	font-size: 18px;
+	font-size: 1.8rem;
 	font-weight: bold;
-	font-style: italic;
 }
 h3{
   font-size: 1.6rem;
-  margin-bottom: $block-margin;
+  margin: 2rem 0 1rem 0;
 	text-align: center;
 }
 h4{
   font-size: 1.4rem;
-  margin-bottom: $block-margin;
+  margin: 2rem 0 1rem 0;
 	text-align: center;
 }
 h5{
   font-size: 1.2rem;
-  margin-bottom: $block-margin;
+  margin: 2rem 0 1rem 0;
 	text-align: center;
 }
 h6{
   font-size: 1.0rem;
-  margin-bottom: $block-margin;
+  margin: 2rem 0 1rem 0;
 	text-align: center;
 }
 
