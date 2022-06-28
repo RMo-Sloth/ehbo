@@ -2,7 +2,7 @@
   Theme Name: ehbo vereniging Berkenwoude
   Author: R.O.B. Monhemius
   Description: Dit is een template voor ehbo vereniging Berkenwoude.
-  Version: 1.1.4
+  Version: 1.2.0
   License: Exclusive Licence for 'EHBO Vereniging Berkenwoude'
 */
 
@@ -12,9 +12,9 @@
 $nav-breakpoint: 500px;
 
 // Colors
-$color-1: #134E8B; // dark blue
-$color-2: #FFF5E6; // very light brown
-$color-3: #F3FAFA; // light blue
+$color-1: #134E8B;
+$color-2: rgb(255, 245, 230);
+$color-3: #F3FAFA;
 
 $box-shadow-1: 4px 5px 3px rgba(0,0,0,0.5);
 $box-shadow-2: 0px 3px 3px rgba(0,0,0,0.5);
@@ -58,7 +58,8 @@ body {
 	font-family: $font-1;
   font-size: 14px;
 	color: $color-1;
-  background-color: $color-2;
+  background: linear-gradient( rgba($color-2, 0.97), rgba($color-2, 0.97) ), url( ./images/background-image.png );
+  background-attachment: fixed;
 }
 // paragraph
 p{
@@ -307,7 +308,7 @@ header{
     }
   }
 }
-@media( min-width: $nav-breakpoint + 1px ) {
+@media( min-width: calc( $nav-breakpoint + 1px ) ) {
   header{
 		box-shadow: $box-shadow-3;
     background-color: $color-1;
