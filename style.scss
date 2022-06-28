@@ -513,3 +513,46 @@ ul.featured-items {
 	box-shadow: 4px 5px 3px rgba(0, 0, 0, 0.5);
 	margin: 0px auto 1rem auto;
 }
+
+//Contact form 7 form with class .main-form
+.wp-block-contact-form-7-contact-form-selector.main-form form {
+  background: linear-gradient( 45deg, $color-1, lighten( $color-1, 10% ) );
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 1rem;
+  color: $color-2;
+  label {
+    font-size: 1rem;
+  }
+  input, textarea {
+    font-size: 1rem;
+    box-sizing: border-box;
+    border-radius: 0.25rem;
+    padding: 0.25rem;
+    width: 100%;
+    font-family: $font-1;
+  }
+  input[type="submit"] {
+    display: block;
+    border-radius: 100px;
+    width: 200px;
+    color: $color-1;
+    font-weight: bold;
+  }
+}
+
+@media( min-width: calc( $nav-breakpoint + 1px ) ) { 
+  .wp-block-contact-form-7-contact-form-selector.main-form form { 
+    input[type="submit"] {
+      float: right;
+    }
+  }
+}
+
+@media( max-width: $nav-breakpoint ) { 
+  .wp-block-contact-form-7-contact-form-selector.main-form form { 
+    input[type="submit"] {
+      margin: auto;
+    }
+  }
+}
