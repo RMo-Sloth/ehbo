@@ -34,7 +34,7 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1.1;
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: #134E8B;
   background: linear-gradient(rgba(255, 245, 230, 0.97), rgba(255, 245, 230, 0.97)), url(./images/background-image.png);
   background-attachment: fixed;
@@ -378,6 +378,9 @@ footer div.container .disclaimer {
 
 body.home > main p {
   text-align: center;
+}
+body.home > main .featured-items {
+  background: rgb(255, 245, 230);
 }
 body.home > main .associations {
   padding-top: 30px;

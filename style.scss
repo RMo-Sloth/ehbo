@@ -56,7 +56,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1.1;
 	font-family: $font-1;
-  font-size: 14px;
+  font-size: 16px;
 	color: $color-1;
   background: linear-gradient( rgba($color-2, 0.97), rgba($color-2, 0.97) ), url( ./images/background-image.png );
   background-attachment: fixed;
@@ -403,9 +403,13 @@ footer {
 
 // HOMEPAGE
 body.home>main {
-    p {
-      text-align: center;
-    }
+  p {
+    text-align: center;
+  }
+  
+  .featured-items {
+    background: $color-2;
+  }
 
 	// MODULE ASSOCIATIONS
 	.associations {

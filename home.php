@@ -11,7 +11,7 @@
 
   <div class='seperator'></div>
 
-  <section>
+  <section class='featured-items'>
     <h1 class='section-header'>het laatste nieuws</h1>
     <?php $featuredItems = new FeaturedItems();
     $featuredItems->compile(); ?>
