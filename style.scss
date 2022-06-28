@@ -248,7 +248,10 @@ header{
       top: 50px;
       bottom: 0px;
       width: 100%;
-      background-color: $color-1;
+      background-image: linear-gradient( rgba($color-1, 0.95 ), rgba( $color-1, 0.95) ), url(./images/help-man.png);
+      background-repeat: no-repeat;
+      background-position: 120% 110%;
+      background-size: auto auto, 250px auto;
       ul {
         height: 100%;
         padding: 0px;
