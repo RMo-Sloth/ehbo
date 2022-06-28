@@ -2,7 +2,7 @@
   Theme Name: ehbo vereniging Berkenwoude
   Author: R.O.B. Monhemius
   Description: Dit is een template voor ehbo vereniging Berkenwoude.
-  Version: 1.2.0
+  Version: 1.2.1
   License: Exclusive Licence for 'EHBO Vereniging Berkenwoude'
 */
 
@@ -225,6 +225,7 @@ body {
 
 header{
 	position: fixed;
+  z-index: 100;
 	top: 0px;
 	width: 100%;
 	height: 50px;
