@@ -384,10 +384,10 @@ body.home > main section.featured-items {
   box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
 }
 body.home > main .associations {
-  padding-top: 30px;
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+  column-gap: 10px;
 }
 body.home > main .associations a {
   position: relative;
@@ -395,7 +395,7 @@ body.home > main .associations a {
   height: 100px;
   width: 100px;
   padding: 25px;
-  margin: 20px 10px;
+  margin: 0px;
   border-radius: 50%;
   background-color: white;
   text-align: center;

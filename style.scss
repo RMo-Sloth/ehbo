@@ -410,17 +410,17 @@ body.home>main {
 
 	// MODULE ASSOCIATIONS
 	.associations {
-	  padding-top: 30px;
 	  display: flex;
-	  justify-content: space-around;
-	  flex-wrap: wrap;
+	  justify-content: center;
+	  flex-wrap: wrap-reverse;
+    column-gap: 10px;
 	  a{
       position: relative;
 			box-shadow: inset -10px -10px 10px #134e8b88;
 	    height: 100px;
 	    width: 100px;
 	    padding: 25px;
-	    margin: 20px 10px;
+	    margin: 0px;
 	    border-radius: 50%;
 	    background-color: white;
 	    text-align: center;
