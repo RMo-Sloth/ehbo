@@ -422,7 +422,6 @@ body.home>main {
 	    padding: 25px;
 	    margin: 20px 10px;
 	    border-radius: 50%;
-	    // overflow: hidden;
 	    background-color: white;
 	    text-align: center;
       &:after {
@@ -515,16 +514,6 @@ ul.featured-items {
 // FEATURE: CENTER
 .centered {
 	text-align: center;
-}
-
-// FEATURE INTRO IMAGE
-.intro-image {
-	width: 250px;
-	height: 250px;
-	border-radius: 50%;
-	border: 5px solid $color-1;
-	box-shadow: 4px 5px 3px rgba(0, 0, 0, 0.5);
-	margin: 0px auto 1rem auto;
 }
 
 //Contact form 7 form with class .main-form

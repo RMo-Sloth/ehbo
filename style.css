@@ -384,8 +384,9 @@ body.home > main section.featured-items {
   box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
 }
 body.home > main .associations {
+  padding-top: 30px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 body.home > main .associations a {
@@ -394,7 +395,7 @@ body.home > main .associations a {
   height: 100px;
   width: 100px;
   padding: 25px;
-  margin: 0px 10px;
+  margin: 20px 10px;
   border-radius: 50%;
   background-color: white;
   text-align: center;
@@ -478,15 +479,6 @@ ul.featured-items {
 
 .centered {
   text-align: center;
-}
-
-.intro-image {
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-  border: 5px solid #134E8B;
-  box-shadow: 4px 5px 3px rgba(0, 0, 0, 0.5);
-  margin: 0px auto 1rem auto;
 }
 
 .wp-block-contact-form-7-contact-form-selector.main-form form {
