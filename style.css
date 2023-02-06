@@ -384,22 +384,32 @@ body.home > main section.featured-items {
   box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
 }
 body.home > main .associations {
-  padding-top: 30px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
 }
 body.home > main .associations a {
-  box-shadow: 4px 5px 3px rgba(0, 0, 0, 0.5);
+  position: relative;
+  box-shadow: inset -10px -10px 10px rgba(19, 78, 139, 0.5333333333);
   height: 100px;
   width: 100px;
   padding: 25px;
-  margin: 20px 10px;
+  margin: 0px 10px;
   border-radius: 50%;
-  overflow: hidden;
   background-color: white;
-  border: 2px solid #134E8B;
   text-align: center;
+}
+body.home > main .associations a:after {
+  content: "";
+  position: absolute;
+  bottom: -4%;
+  left: 25%;
+  width: 90%;
+  height: 30%;
+  border-radius: 50%;
+  z-index: -1;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 body.home > main .associations a img {
   height: 100px;
